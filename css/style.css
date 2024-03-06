@@ -416,6 +416,8 @@ img {
 }
 .footer-left {
     margin-right: 120px;
+    display: flex;
+    align-items: baseline;
 }
 .footer-icons-block {
 }
