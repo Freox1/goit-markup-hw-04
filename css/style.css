@@ -403,7 +403,7 @@ img {
 }
 .footer-social {
     display: flex;
-    margin-right: 120px;
+
     align-items: baseline;
 }
 .social-media {
@@ -413,4 +413,7 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+}
+.footer-left {
+    margin-right: 120px;
 }
