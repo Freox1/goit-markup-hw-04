@@ -444,3 +444,10 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 0;
 }
+.show-text {
+    overflow: hidden;
+    position: relative;
+}
+.portfolio-list-item:hover .popup-text {
+    transform: translateY(0%);
+}
