@@ -14,9 +14,9 @@ h6,
 p {
     margin: 0;
 }
-*,
-.nav-studio:before,
-.nav-studio:after {
+
+.nav-studio::before,
+.nav-studio::after {
     content: "";
     width: 100%;
     position: absolute;
@@ -26,6 +26,7 @@ p {
     background-color: #404bbf;
     border-radius: 2px;
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
