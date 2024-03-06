@@ -402,6 +402,8 @@ img {
     list-style-type: none;
 }
 .footer-social {
+    display: flex;
+    align-items: baseline;
 }
 .social-media {
     font-weight: 500;
@@ -415,4 +417,7 @@ img {
     margin-right: 120px;
     display: flex;
     align-items: baseline;
+}
+.footer-icons-block {
+    gap: 16px;
 }
