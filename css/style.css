@@ -357,6 +357,7 @@ img {
     color: #f4f4fd;
     height: 72px;
     max-width: 264px;
+    margin-bottom: 16px;
 }
 .goal-icons-block {
     border: 1px solid #8e8f99;
@@ -409,10 +410,12 @@ img {
     display: flex;
     list-style-type: none;
     gap: 16px;
+    margin-top: 16px;
 }
 .footer-social {
     display: flex;
     align-items: baseline;
+    flex-direction: column;
 }
 .social-media {
     font-weight: 500;
@@ -423,9 +426,10 @@ img {
     margin-bottom: 16px;
 }
 .footer-left {
-    margin-right: 120px;
+    margin-right: 200px;
     display: flex;
     align-items: baseline;
+    flex-direction: column;
 }
 .footer-icons-block {
 }
