@@ -411,6 +411,8 @@ img {
     list-style-type: none;
     gap: 16px;
     margin-top: 16px;
+    margin: 0;
+    padding: 0;
 }
 .footer-social {
     display: flex;
