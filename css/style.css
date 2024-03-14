@@ -419,7 +419,7 @@ img {
     align-items: baseline;
     flex-direction: column;
 }
-.social-media {
+.footer-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -539,4 +539,37 @@ img {
 .input-container {
     width: 360px;
     height: 40px;
+}
+.modal-icon {
+    fill: #2e2f42;
+}
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+}
+.footer-input {
+    background-color: #2e2f42;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+.sub-button {
+    cursor: pointer;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: white;
+    display: block;
+    width: 165px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+}
+.sub-button:focus,
+.sub-button:hover {
+    background-color: #404bbf;
 }
