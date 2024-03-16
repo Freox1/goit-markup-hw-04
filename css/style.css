@@ -527,7 +527,7 @@ img {
 .privacy-policy {
     text-decoration: none;
 }
-.modal-button {
+.close-button {
     top: 24px;
     right: 24px;
     width: 24px;
@@ -546,6 +546,7 @@ img {
 .modal-button:hover,
 .modal-button:focus {
     background-color: #404bbf;
+    border: none;
 }
 .input-container {
     width: 360px;
