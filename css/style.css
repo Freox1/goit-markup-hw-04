@@ -616,3 +616,6 @@ img {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
+.input-block {
+    margin-bottom: 8px;
+}
