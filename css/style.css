@@ -548,7 +548,7 @@ img {
     position: absolute;
 }
 
-.close-button:focus {
+.close-button:hover {
     background-color: #404bbf;
     border: none;
 }
@@ -557,10 +557,11 @@ img {
     height: 40px;
 }
 .modal-icon {
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon:focus {
+.modal-icon:focus,
+.modal-icon:hover {
     fill: #ffffff;
 }
 .subscribe {
@@ -680,7 +681,7 @@ img {
 .svg-span {
     width: 16px;
     height: 16px;
-    border: 1px solid (46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1),
