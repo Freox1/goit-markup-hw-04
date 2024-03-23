@@ -779,7 +779,9 @@
                         </div>
                     </div>
                     <div class="text-block">
-                        <label class="label-header">Comment</label>
+                        <label class="label-header" for="user-comment"
+                            >Comment</label
+                        >
                         <textarea
                             class="text-area"
                             id="user-comment"
@@ -787,10 +789,27 @@
                             name="user-comment"
                         ></textarea>
                     </div>
-                    <input type="checkbox" />
-                    <p>I accept the terms and conditions of the</p>
-                    <a href="" class="privacy-policy"> Privacy Policy</a>
-                    <button class="modal-button">Send</button>
+                    <div>
+                        <input
+                            type="checkbox"
+                            id="user-privacy"
+                            value="true"
+                            name="user-privacy"
+                            class="visually-hidden"
+                        />
+                        <label for="user-privacy" class="privacy-label"
+                            ><span
+                                ><svg height="8" width="10">
+                                    <use
+                                        href="./images/icons.svg#icon-frame-3"
+                                    ></use></svg></span
+                            >I accept the terms and conditions of the
+                            <a href="" class="privacy-policy">
+                                Privacy Policy</a
+                            ></label
+                        >
+                        <button class="modal-button">Send</button>
+                    </div>
                 </form>
             </div>
         </div>

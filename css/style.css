@@ -546,7 +546,7 @@ img {
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: absolute;
 }
-.close-button:hover,
+
 .close-button:focus {
     background-color: #404bbf;
     border: none;
@@ -558,7 +558,7 @@ img {
 .modal-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2 1);
 }
-.modal-icon:hover,
+
 .modal-icon:focus {
     fill: #ffffff;
 }
@@ -632,7 +632,7 @@ img {
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-container:hover,
+
 .input-container:focus {
     border-color: #4d5ae5;
 }
@@ -652,8 +652,8 @@ img {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 46, 66, 0.4);
-    border: 1px solid rgba(46, 46, 66, 0.4);
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
     padding: 8px 16px;
